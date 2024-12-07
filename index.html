@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/music-note-beamed.svg" type="image/x-icon">
+</head>
+<body>
+    <section class="music-player">
+        <h1>Title</h1>
+        <p>song name</p>
+        <audio id="song">
+            <source src="" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+        <div class="controls">
+            <button class="back control">
+                <i class="bi bi-rewind-fill"></i>
+            </button>
+            <button class="play-pause icon-control">
+                <i class="bi bi-play-fill" id="icon-control"></i>
+            </button>
+            <button class="next control">
+                <i class="bi bi-fast-forward-fill"></i>
+            </button>
+        </div>
+    </section>
+    
+<script src="app.js"></script>
+</body>
+</html>
